@@ -5,16 +5,17 @@ android {
     buildToolsVersion "25.0.1"
 
     defaultConfig {
-        applicationId "com.example.addandsub"
+        applicationId "com.example.interactivitycommunication"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-       jackOptions{
-           enabled true
-       }
+        jackOptions{
+            enabled true
+        }
+
     }
     buildTypes {
         release {
@@ -23,9 +24,9 @@ android {
         }
     }
     compileOptions {
-             sourceCompatibility 1.8
-               targetCompatibility 1.8
-          }
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
 }
 
 dependencies {
