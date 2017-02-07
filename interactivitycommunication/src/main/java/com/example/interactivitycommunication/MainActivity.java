@@ -11,6 +11,7 @@ import static com.example.interactivitycommunication.R.id.edtEmail;
 public class MainActivity extends AppCompatActivity {
 
     static final String KEY_EMAIL = "email";
+    private static final int REQ_NEXT = 5596;
 
 
     @Override
@@ -23,19 +24,34 @@ public class MainActivity extends AppCompatActivity {
 
     private void goNext(View view) {
 
-        Intent  intent = new Intent(this, Main2Activity.class);//Start new activity
+        Intent intent = new Intent(this, Main2Activity.class);//Start new activity
 
         Bundle bundle = new Bundle();
-        bundle.putString(KEY_EMAIL,getEmail());
+        bundle.putString(KEY_EMAIL, getEmail());
         intent.putExtras(bundle);
-
-        startActivity(intent);
+        startActivityForResult(intent, REQ_NEXT);
+        //startActivity(intent);
     }
 
     private String getEmail() {
-        return ((EditText)findViewById(R.id.edtEmail)).getText().toString();
+        return ((EditText) findViewById(R.id.edtEmail)).getText().toString();
 
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
+        if (requestCode == REQ_NEXT) {
+            if (resultCode == RESULT_OK) {
+
+                if (data != null) {
+                    ((EditText) findViewById(R.id.edtEmail))
+                            .setText(data.getExtras().getString(Main2Activity.KEY_BACK));
+
+                }
+
+            }
+        }
+    }
 }
