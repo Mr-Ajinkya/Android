@@ -30,6 +30,7 @@ public class Main2Activity extends AppCompatActivity {
         bundle.putString(KEY_BACK,goback());
         intent.putExtras(bundle);
         setResult(RESULT_OK,intent);
+        finish();
     }
 
 
