@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import static com.example.addnumberactivity.MainActivity.KEY_NUM;
+
 public class Main2Activity extends AppCompatActivity {
 
-    private static final String KEY_NUM1 = "num1";
+    private static final String KEY_NUM = "num1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,7 @@ public class Main2Activity extends AppCompatActivity {
     private void goNext1(View view) {
         Intent intent = new Intent(this,Main3Activity.class);
         Bundle bundle = new Bundle();
-        bundle.putString(KEY_NUM1,getNumber1());
+        bundle.putString(KEY_NUM,getNumber1());
         startActivity(intent);
     }
 

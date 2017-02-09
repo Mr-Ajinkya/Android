@@ -10,17 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.addnumberactivity.Main3Activity">
 
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Number"
+        android:gravity="center"/>
     <EditText
-        android:id="@+id/btnText"
+        android:id="@+id/edtText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="First Number"/>
+        android:hint="First Number"
+        android:layout_marginTop="30dp"/>
         <EditText
-        android:id="@+id/btnText1"
+        android:id="@+id/edtText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Second Number"
-            android:layout_marginTop="55dp"/>
+            android:layout_marginTop="70dp"/>
 
 
 </RelativeLayout>

@@ -7,18 +7,30 @@ import android.widget.EditText;
 
 public class Main3Activity extends AppCompatActivity {
 
-    private int number;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
         Intent respnseIntent =  getIntent();
+
         Bundle bundle = respnseIntent.getExtras();
         if(bundle != null){
-            String name = bundle.getString(MainActivity.KEY_NUM);
-            ((EditText) findViewById(R.id.btnText)).setText(number);
+            String email = bundle.getString(MainActivity.KEY_NUM);
+            ((EditText) findViewById(R.id.edtText)).setText(email);
+        }
+
+
+
 
         }
+
+
+
+       /* Bundle bundle = respnseIntent.getExtras();
+        if(bundle != null){
+            String name = bundle.getString(MainActivity.KEY_NUM);
+            ((EditText) findViewById(R.id.btnText)).setText(name);
+
+        }*/
     }
-}
