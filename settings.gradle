@@ -1,1 +1,1 @@
-include ':app', ':basiccode', ':square', ':uidesign', ':moreuidesign', ':textandbutton', ':addandsub', ':interactivitycommunication', ':passdata', ':addnumberactivity', ':imagedisplay', ':animation', ':compound1'
+include ':app', ':basiccode', ':square', ':uidesign', ':moreuidesign', ':textandbutton', ':addandsub', ':interactivitycommunication', ':passdata', ':addnumberactivity', ':imagedisplay', ':animation', ':compound1', ':compoundsetting'
