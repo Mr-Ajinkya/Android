@@ -29,6 +29,7 @@
             <option value="$PROJECT_DIR$/textandbutton" />
             <option value="$PROJECT_DIR$/uidesign" />
             <option value="$PROJECT_DIR$/uidesign2" />
+            <option value="$PROJECT_DIR$/viewproperty" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
