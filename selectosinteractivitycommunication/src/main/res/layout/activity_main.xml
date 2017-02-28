@@ -22,4 +22,11 @@
         android:layout_below="@+id/btnAndroid"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/txtRes"
+        android:layout_below="@id/btnApple"/>
 </RelativeLayout>
