@@ -6,14 +6,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.customviews.MainActivity">
+    tools:context="com.example.bounceball.MainActivity">
 
-    <!--<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" />-->
-    <com.example.customviews.OurView
-
-        android:layout_height="match_parent"
+    <Button
         android:layout_width="match_parent"
-        android:gravity="top"
-        />
+        android:layout_height="wrap_content"
+        android:text="Bounce"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnBounce"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/volleyball"
+        android:layout_above="@id/btnBounce"/>
+
 </RelativeLayout>

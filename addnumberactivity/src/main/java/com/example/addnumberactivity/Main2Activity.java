@@ -1,16 +1,14 @@
 package com.example.addnumberactivity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import static com.example.addnumberactivity.MainActivity.KEY_NUM;
-
 public class Main2Activity extends AppCompatActivity {
 
-    private static final String KEY_NUM = "num1";
+    static final String KEY_NUM = "num1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

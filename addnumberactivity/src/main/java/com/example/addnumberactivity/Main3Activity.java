@@ -1,8 +1,8 @@
 package com.example.addnumberactivity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 
 public class Main3Activity extends AppCompatActivity {
@@ -13,11 +13,10 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         Intent respnseIntent =  getIntent();
-
         Bundle bundle = respnseIntent.getExtras();
         if(bundle != null){
-            String email = bundle.getString(MainActivity.KEY_NUM);
-            ((EditText) findViewById(R.id.edtText)).setText(email);
+            String num1 = bundle.getString(MainActivity.KEY_NUM);
+            ((EditText)findViewById(R.id.edtText)).setText(Integer.toString(Integer.parseInt(num1)));
         }
 
 
