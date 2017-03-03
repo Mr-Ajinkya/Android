@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitystatemanagement/activitystatemanagement.iml" filepath="$PROJECT_DIR$/activitystatemanagement/activitystatemanagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/addandsub/addandsub.iml" filepath="$PROJECT_DIR$/addandsub/addandsub.iml" />
       <module fileurl="file://$PROJECT_DIR$/addnumberactivity/addnumberactivity.iml" filepath="$PROJECT_DIR$/addnumberactivity/addnumberactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
