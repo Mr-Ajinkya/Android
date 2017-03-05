@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.connecttrain.MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:src="@drawable/background"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/trainName"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:text="Super Train A136"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/CurentlyLabel"
+            android:text="Currently"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:textColor="#AAAAAA"
+            android:background="#FFFFFF"
+            android:layout_above="@id/trainName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bookButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#D2486F"
+            android:text="Book"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/detailHeader"
+            android:background="#6F839A"
+            android:text="12:36 Leaving Austin to Los Angeles"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:weightSum="32"
+        android:layout_alignParentBottom="true"
+        android:background="#86C664"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp" 
+            android:layout_weight="4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="32">
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/upArrow"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_up"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/upText"
+                android:text="NorthBound\n50min"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/downArrow"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_down"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/downText"
+                android:text="SouthBound\n50min"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="32">
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/compassArrow"
+                android:scaleType="fitCenter"
+                android:src="@drawable/compass"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/compassText"
+                android:text="You are:\n10min away"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/warningImg"
+                android:scaleType="fitCenter"
+                android:src="@drawable/warning"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/warningText"
+                android:text="WARNING:\nMorning Delays"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
