@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/nestedlayout/nestedlayout.iml" filepath="$PROJECT_DIR$/nestedlayout/nestedlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/passdata/passdata.iml" filepath="$PROJECT_DIR$/passdata/passdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresources/providingresources.iml" filepath="$PROJECT_DIR$/providingresources/providingresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" filepath="$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" />
       <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/selectosinteractivitycommunication/selectosinteractivitycommunication.iml" filepath="$PROJECT_DIR$/selectosinteractivitycommunication/selectosinteractivitycommunication.iml" />
       <module fileurl="file://$PROJECT_DIR$/setdate/setdate.iml" filepath="$PROJECT_DIR$/setdate/setdate.iml" />
