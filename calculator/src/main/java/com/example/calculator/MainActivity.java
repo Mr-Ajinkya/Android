@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onCls(View view) {
-       // ((TextView)findViewById(R.id.textRes)).setText(Integer.toString(result)).clear();
+
         ((EditText)findViewById(R.id.edtNum1)).getText().clear();
         ((EditText)findViewById(R.id.edtNum2)).getText().clear();
 

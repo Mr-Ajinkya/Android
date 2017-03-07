@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="edtUserName">User Name</string>
+    <string name="btnOkay">Okay</string>
+    <string name="styleText">Ajinkya</string>
+    <string-array name="cities">
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Murud</item>
+        <item>Jalgaon</item>
+        <item>Nagpur</item>
+    </string-array>
+</resources>
