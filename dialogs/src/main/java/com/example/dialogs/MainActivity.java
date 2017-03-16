@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void clicked(View view) {
 
-        if (view.getId() == R.id.btnAlert) showAlert();
+        if (view.getId() == R.id.btnAlert) showDialog(MyDailog.DIALOG_ALERT);
     }
 
     private void showAlert() {
@@ -28,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
                 .setTitle(R.string.title);
         AlertDialog dialog = builder.create();
         dialog.show();
+
+    }
+
+    private void showDialog(String tag) {
+
+       MyDailog dialog = new MyDailog();
+        dialog.show(getSupportFragmentManager(),tag);
 
     }
 }
