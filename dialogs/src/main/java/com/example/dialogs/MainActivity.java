@@ -13,11 +13,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btnAlert).setOnClickListener(this::clicked);
+        findViewById(R.id.btnDatePicker).setOnClickListener(this::clicked);
+        findViewById(R.id.btnTimePicker).setOnClickListener(this::clicked);
+        findViewById(R.id.btnProgress).setOnClickListener(this::clicked);
+        findViewById(R.id.btnCustom).setOnClickListener(this::clicked);
     }
 
     private void clicked(View view) {
 
         if (view.getId() == R.id.btnAlert) showDialog(MyDailog.DIALOG_ALERT);
+        if (view.getId() == R.id.btnDatePicker) showDialog(MyDailog.DIALOG_DATE_PICKER);
+       // if (view.getId() == R.id.btnTimePicker) showDialog(MyDailog.DIALOG_DATE_PICKER);
+        //if (view.getId() == R.id.btnProgress) showDialog(MyDailog.DIALOG_DATE_PICKER);
+        //if (view.getId() == R.id.btnProgress) showDialog(MyDailog.DIALOG_DATE_PICKER);
     }
 
     private void showAlert() {
