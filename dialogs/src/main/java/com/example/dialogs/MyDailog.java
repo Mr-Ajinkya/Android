@@ -3,6 +3,7 @@ package com.example.dialogs;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -20,6 +21,7 @@ public class MyDailog extends DialogFragment {
     public static final String DIALOG_ALERT = "alert";
     public static final String DIALOG_DATE_PICKER = "datePicker";
     public static final String DIALOG_TIME_PICKER = "timePicker";
+    public static final String DIALOG_PROGRESS = "progress";
 
 
     @NonNull
@@ -31,8 +33,19 @@ public class MyDailog extends DialogFragment {
         if (getTag().equals(DIALOG_ALERT)) dialog = showAlertDialog();
         if (getTag().equals(DIALOG_DATE_PICKER)) dialog = showDatePicker();
         if (getTag().equals(DIALOG_TIME_PICKER)) dialog = showTimePicker();
+        if (getTag().equals(DIALOG_PROGRESS)) dialog = showProgress();
 
         return dialog;
+    }
+
+    private Dialog showProgress() {
+
+        ProgressDialog progressDialog = new ProgressDialog(getActivity());
+        progressDialog.setTitle(R.string.title);
+        progressDialog.setMessage(getResources().getString(R.string.message));
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        return progressDialog;
+
     }
 
     private Dialog showTimePicker() {
