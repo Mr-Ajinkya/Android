@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         if (view.getId() == R.id.btnDatePicker) showDialog(MyDailog.DIALOG_DATE_PICKER);
         if (view.getId() == R.id.btnTimePicker) showDialog(MyDailog.DIALOG_TIME_PICKER);
         if (view.getId() == R.id.btnProgress) showDialog(MyDailog.DIALOG_PROGRESS);
-        //if (view.getId() == R.id.btnProgress) showDialog(MyDailog.DIALOG_DATE_PICKER);
+        if (view.getId() == R.id.btnCustom) showDialog(MyDailog.DIALOG_CUSTOM);
     }
 
     private void showAlert() {

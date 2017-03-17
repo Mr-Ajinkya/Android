@@ -11,6 +11,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Toast;
 
 /**
@@ -22,6 +24,7 @@ public class MyDailog extends DialogFragment {
     public static final String DIALOG_DATE_PICKER = "datePicker";
     public static final String DIALOG_TIME_PICKER = "timePicker";
     public static final String DIALOG_PROGRESS = "progress";
+    public static final String DIALOG_CUSTOM = "custom";
 
 
     @NonNull
@@ -34,8 +37,19 @@ public class MyDailog extends DialogFragment {
         if (getTag().equals(DIALOG_DATE_PICKER)) dialog = showDatePicker();
         if (getTag().equals(DIALOG_TIME_PICKER)) dialog = showTimePicker();
         if (getTag().equals(DIALOG_PROGRESS)) dialog = showProgress();
+        if (getTag().equals(DIALOG_CUSTOM)) dialog = showCustomDialog();
 
         return dialog;
+    }
+
+    private Dialog showCustomDialog() {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        View view = LayoutInflater.from(getActivity()).inflate(R.layout.custom_dialog,null,false);
+        view.findViewById(R.id.btnLogin).setOnClickListener(view1 -> mt("Login Clicked"));
+        builder.setView(view);
+        return builder.create();
+
     }
 
     private Dialog showProgress() {
