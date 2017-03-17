@@ -3,6 +3,7 @@ package com.example.dialogs;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -18,6 +19,7 @@ public class MyDailog extends DialogFragment {
 
     public static final String DIALOG_ALERT = "alert";
     public static final String DIALOG_DATE_PICKER = "datePicker";
+    public static final String DIALOG_TIME_PICKER = "timePicker";
 
 
     @NonNull
@@ -28,12 +30,21 @@ public class MyDailog extends DialogFragment {
 
         if (getTag().equals(DIALOG_ALERT)) dialog = showAlertDialog();
         if (getTag().equals(DIALOG_DATE_PICKER)) dialog = showDatePicker();
+        if (getTag().equals(DIALOG_TIME_PICKER)) dialog = showTimePicker();
 
         return dialog;
     }
 
+    private Dialog showTimePicker() {
+
+        TimePickerDialog timePicker =  new TimePickerDialog(getActivity(),(view,hourofday,minute)->mt("" + hourofday + " : "+ minute),6,8,false);
+        return timePicker;
+
+    }
+
     private Dialog showDatePicker() {
-        DatePickerDialog datePicker = new DatePickerDialog(getActivity(), null, 2017, 0 , 1);
+        DatePickerDialog datePicker = new DatePickerDialog(getActivity(), (view, year, month, dayofmonth) -> 
+            mt(" " + dayofmonth + " - " + (month+1) + " - " + year), 2017, 0 , 1);
         return datePicker;
     }
 
