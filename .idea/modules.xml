@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/textandbutton/textandbutton.iml" filepath="$PROJECT_DIR$/textandbutton/textandbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidesign/uidesign.iml" filepath="$PROJECT_DIR$/uidesign/uidesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidesign2/uidesign2.iml" filepath="$PROJECT_DIR$/uidesign2/uidesign2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uimanipulation/uimanipulation.iml" filepath="$PROJECT_DIR$/uimanipulation/uimanipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimation/viewanimation.iml" filepath="$PROJECT_DIR$/viewanimation/viewanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewproperty/viewproperty.iml" filepath="$PROJECT_DIR$/viewproperty/viewproperty.iml" />
     </modules>
