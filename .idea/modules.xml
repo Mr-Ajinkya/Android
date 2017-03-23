@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/selectosinteractivitycommunication/selectosinteractivitycommunication.iml" filepath="$PROJECT_DIR$/selectosinteractivitycommunication/selectosinteractivitycommunication.iml" />
       <module fileurl="file://$PROJECT_DIR$/setdate/setdate.iml" filepath="$PROJECT_DIR$/setdate/setdate.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplevaluereources/simplevaluereources.iml" filepath="$PROJECT_DIR$/simplevaluereources/simplevaluereources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/square/square.iml" filepath="$PROJECT_DIR$/square/square.iml" />
       <module fileurl="file://$PROJECT_DIR$/textandbutton/textandbutton.iml" filepath="$PROJECT_DIR$/textandbutton/textandbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidesign/uidesign.iml" filepath="$PROJECT_DIR$/uidesign/uidesign.iml" />
