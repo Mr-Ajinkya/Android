@@ -43,27 +43,42 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Update() {
+        SQLiteDatabase db = helper.getWritableDatabase();
+        String table = "myTable";
+        ContentValues values = new ContentValues();
+        values.put("myName",getMyName());
+        String whereClause = "myAge = ?";
+        String[] whereArgs = {String.valueOf(getMyAge())};
+        db.update(table,values,whereClause,whereArgs);
+        db.close();
     }
 
     public void Delete() {
+        SQLiteDatabase db = helper.getReadableDatabase();
+        String table = "myTable";
+        String whereClause = "myAge = ?";
+        String[] whereArgs = {String.valueOf(getMyAge())};
+        db.delete(table,whereClause,whereArgs);
+        db.close();
     }
 
     public void Display() {
 
         SQLiteDatabase db = helper.getReadableDatabase();
         String table = "myTable";
-        String[] columns = null;
-        String selection = null;
-        String[] selectionArgs = null;
+        String[] columns = {"myName"};
+        String selection = "myAge = ?";
+        String[] selectionArgs = {"" + getMyAge()};
         String groupBy = null;
         String having = null;
         String orderBy = null;
         Cursor cursor = db.query(table,columns,selection,selectionArgs,groupBy,having,orderBy);
 
         while (cursor.moveToNext()){
-            String myName = cursor.getString(0);
-            Integer myAge = cursor.getInt(cursor.getColumnIndex("myAge"));
-            Log.i("Ajinkya" ,"Name" + myName + " Age " + myAge);
+            String myName = cursor.getString(cursor.getColumnIndex("myAge"));
+            //Integer myAge = cursor.getInt(cursor.getColumnIndex("myAge"));
+            Log.i("example","Name" + myName);
+
         }
 
         db.close();
@@ -74,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         return ((EditText)findViewById(R.id.edtMyName)).getText().toString();
     }
     private Integer getMyAge(){
-        return Integer.parseInt(((EditText)findViewById(R.id.edtMyName))
+        return Integer.parseInt(((EditText)findViewById(R.id.edtMyAge))
                 .getText()
                 .toString());
     }
