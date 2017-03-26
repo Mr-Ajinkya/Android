@@ -25,10 +25,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void clicked(View view) {
-        if (view.getId() == R.id.btnInsert) Insert();
+        if (view.getId() == R.id.btnInsert) insertRaw();
         if (view.getId() == R.id.btnUpdate) Update();
         if (view.getId() == R.id.btnDelete) Delete();
-        if (view.getId() == R.id.btnDisplay) Display();
+        //if (view.getId() == R.id.btnDisplay) Display();
+        if (view.getId() == R.id.btnDisplay) selectRawSql();
     }
 
     public void Insert() {
@@ -83,6 +84,24 @@ public class MainActivity extends AppCompatActivity {
 
         db.close();
 
+    }
+
+    private void selectRawSql(){
+        SQLiteDatabase sqDb = helper.getReadableDatabase();
+        Cursor cursor = sqDb.rawQuery("select * from myTable",null);
+        while (cursor.moveToNext()){
+
+            String myName = cursor.getString(cursor.getColumnIndex("myName"));
+            int myAge = cursor.getInt(cursor.getColumnIndex("myAge"));
+            Log.i("example","Name - " + myName + " Age  - " + myAge);
+        }
+        sqDb.close();
+    }
+
+    private void insertRaw(){
+        SQLiteDatabase sqdb = helper.getWritableDatabase();
+        sqdb.execSQL("insert into myTable values ('raw android',12)");
+        sqdb.close();
     }
 
     private String getMyName(){
