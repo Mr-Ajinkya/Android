@@ -14,5 +14,12 @@
         android:layout_height="match_parent"
         android:src="@drawable/ic_airplanemode_inactive_black_24dp"/>
 
+    <Button
+        android:id="@+id/btnBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btnBroadCast"/>
+
 
 </RelativeLayout>

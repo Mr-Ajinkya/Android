@@ -16,7 +16,15 @@
             </intent-filter>
         </activity>
 
-
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+                <action android:name="com.example.action.CUSTOM_RECEIVER"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

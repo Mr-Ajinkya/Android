@@ -7,6 +7,7 @@ import android.content.IntentFilter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 
  public class MainActivity extends AppCompatActivity {
@@ -29,10 +30,23 @@ import android.widget.ImageView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED);
-        registerReceiver(receiver, filter);
+        initFlightModeReceiver();
+        findViewById(R.id.btnBroadcast).setOnClickListener(this::clicked);
+
     }
+
+     private void clicked(View view) {
+         if (view.getId() == R.id.btnBroadcast){
+             sendBroadcast(new Intent("com.example.action.CUSTOM_RECEIVER"));
+         }
+     }
+
+     private void initFlightModeReceiver(){
+         IntentFilter filter = new IntentFilter();
+         filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED);
+         registerReceiver(receiver, filter);
+     }
+
      private void changeAirPlane(int image){
          ((ImageView)findViewById(R.id.imageAirPlane))
                  .setImageResource(image);
