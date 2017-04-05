@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/activitystatemanagement/activitystatemanagement.iml" filepath="$PROJECT_DIR$/activitystatemanagement/activitystatemanagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/addandsub/addandsub.iml" filepath="$PROJECT_DIR$/addandsub/addandsub.iml" />
       <module fileurl="file://$PROJECT_DIR$/addnumberactivity/addnumberactivity.iml" filepath="$PROJECT_DIR$/addnumberactivity/addnumberactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adil/adil.iml" filepath="$PROJECT_DIR$/adil/adil.iml" />
       <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basiccode/basiccode.iml" filepath="$PROJECT_DIR$/basiccode/basiccode.iml" />
@@ -38,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" filepath="$PROJECT_DIR$/providingresourcesown/providingresourcesown.iml" />
       <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/selectosinteractivitycommunication/selectosinteractivitycommunication.iml" filepath="$PROJECT_DIR$/selectosinteractivitycommunication/selectosinteractivitycommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
       <module fileurl="file://$PROJECT_DIR$/setdate/setdate.iml" filepath="$PROJECT_DIR$/setdate/setdate.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedprefs/sharedprefs.iml" filepath="$PROJECT_DIR$/sharedprefs/sharedprefs.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplevaluereources/simplevaluereources.iml" filepath="$PROJECT_DIR$/simplevaluereources/simplevaluereources.iml" />
