@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/activitystatemanagement/activitystatemanagement.iml" filepath="$PROJECT_DIR$/activitystatemanagement/activitystatemanagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/addandsub/addandsub.iml" filepath="$PROJECT_DIR$/addandsub/addandsub.iml" />
       <module fileurl="file://$PROJECT_DIR$/addnumberactivity/addnumberactivity.iml" filepath="$PROJECT_DIR$/addnumberactivity/addnumberactivity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/adil/adil.iml" filepath="$PROJECT_DIR$/adil/adil.iml" />
       <module fileurl="file://$PROJECT_DIR$/animation/animation.iml" filepath="$PROJECT_DIR$/animation/animation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basiccode/basiccode.iml" filepath="$PROJECT_DIR$/basiccode/basiccode.iml" />
@@ -32,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewwitharrayadapter/listviewwitharrayadapter.iml" filepath="$PROJECT_DIR$/listviewwitharrayadapter/listviewwitharrayadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewwithcustomadapter/listviewwithcustomadapter.iml" filepath="$PROJECT_DIR$/listviewwithcustomadapter/listviewwithcustomadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdesign/materialdesign.iml" filepath="$PROJECT_DIR$/materialdesign/materialdesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/moreuidesign/moreuidesign.iml" filepath="$PROJECT_DIR$/moreuidesign/moreuidesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/nestedlayout/nestedlayout.iml" filepath="$PROJECT_DIR$/nestedlayout/nestedlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/passdata/passdata.iml" filepath="$PROJECT_DIR$/passdata/passdata.iml" />

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="action_settings">Settings</string>
+    <string name="edtUserName">User Name</string>
+    <string name="edtLogin">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="edtPassword">Password</string>
+    <string name="actionProfile">Profile</string>
+</resources>

@@ -13,7 +13,6 @@
             <option value="$PROJECT_DIR$/activitystatemanagement" />
             <option value="$PROJECT_DIR$/addandsub" />
             <option value="$PROJECT_DIR$/addnumberactivity" />
-            <option value="$PROJECT_DIR$/adil" />
             <option value="$PROJECT_DIR$/animation" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basiccode" />
@@ -38,6 +37,7 @@
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/listviewwitharrayadapter" />
             <option value="$PROJECT_DIR$/listviewwithcustomadapter" />
+            <option value="$PROJECT_DIR$/materialdesign" />
             <option value="$PROJECT_DIR$/moreuidesign" />
             <option value="$PROJECT_DIR$/nestedlayout" />
             <option value="$PROJECT_DIR$/passdata" />
