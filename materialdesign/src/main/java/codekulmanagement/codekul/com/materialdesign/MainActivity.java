@@ -1,5 +1,6 @@
 package codekulmanagement.codekul.com.materialdesign;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -52,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.actionSettings) {
              Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
         }else if (id == R.id.actionProfile){
-            Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, ProfileActivity.class));
         }
 
         return super.onOptionsItemSelected(item);
@@ -74,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Cut", Toast.LENGTH_SHORT).show();
         }else {
             Toast.makeText(this, "Copy", Toast.LENGTH_SHORT).show();
+
         }
         return true;
     }
