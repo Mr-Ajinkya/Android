@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/activitystatemanagement" />
             <option value="$PROJECT_DIR$/addandsub" />
             <option value="$PROJECT_DIR$/addnumberactivity" />
+            <option value="$PROJECT_DIR$/aidl" />
+            <option value="$PROJECT_DIR$/aidlclient" />
             <option value="$PROJECT_DIR$/animation" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basiccode" />
@@ -34,6 +36,7 @@
             <option value="$PROJECT_DIR$/intentandintentfilters" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
             <option value="$PROJECT_DIR$/internalstorage" />
+            <option value="$PROJECT_DIR$/jsonparsing" />
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/listviewwitharrayadapter" />
             <option value="$PROJECT_DIR$/listviewwithcustomadapter" />
@@ -48,6 +51,7 @@
             <option value="$PROJECT_DIR$/services" />
             <option value="$PROJECT_DIR$/setdate" />
             <option value="$PROJECT_DIR$/sharedprefs" />
+            <option value="$PROJECT_DIR$/simplelistview" />
             <option value="$PROJECT_DIR$/simplevaluereources" />
             <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/square" />
