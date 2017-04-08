@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/internalstorage/internalstorage.iml" filepath="$PROJECT_DIR$/internalstorage/internalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsonparsing/jsonparsing.iml" filepath="$PROJECT_DIR$/jsonparsing/jsonparsing.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewimage/listviewimage.iml" filepath="$PROJECT_DIR$/listviewimage/listviewimage.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewwitharrayadapter/listviewwitharrayadapter.iml" filepath="$PROJECT_DIR$/listviewwitharrayadapter/listviewwitharrayadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewwithcustomadapter/listviewwithcustomadapter.iml" filepath="$PROJECT_DIR$/listviewwithcustomadapter/listviewwithcustomadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/materialdesign/materialdesign.iml" filepath="$PROJECT_DIR$/materialdesign/materialdesign.iml" />
@@ -49,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/simplevaluereources/simplevaluereources.iml" filepath="$PROJECT_DIR$/simplevaluereources/simplevaluereources.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/square/square.iml" filepath="$PROJECT_DIR$/square/square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testlistview/testlistview.iml" filepath="$PROJECT_DIR$/testlistview/testlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/textandbutton/textandbutton.iml" filepath="$PROJECT_DIR$/textandbutton/textandbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidesign/uidesign.iml" filepath="$PROJECT_DIR$/uidesign/uidesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/uidesign2/uidesign2.iml" filepath="$PROJECT_DIR$/uidesign2/uidesign2.iml" />

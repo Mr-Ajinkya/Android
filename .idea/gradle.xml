@@ -38,6 +38,7 @@
             <option value="$PROJECT_DIR$/internalstorage" />
             <option value="$PROJECT_DIR$/jsonparsing" />
             <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/listviewimage" />
             <option value="$PROJECT_DIR$/listviewwitharrayadapter" />
             <option value="$PROJECT_DIR$/listviewwithcustomadapter" />
             <option value="$PROJECT_DIR$/materialdesign" />
@@ -55,6 +56,7 @@
             <option value="$PROJECT_DIR$/simplevaluereources" />
             <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/square" />
+            <option value="$PROJECT_DIR$/testlistview" />
             <option value="$PROJECT_DIR$/textandbutton" />
             <option value="$PROJECT_DIR$/uidesign" />
             <option value="$PROJECT_DIR$/uidesign2" />
