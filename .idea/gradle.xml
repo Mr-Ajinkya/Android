@@ -55,12 +55,14 @@
             <option value="$PROJECT_DIR$/simplelistview" />
             <option value="$PROJECT_DIR$/simplevaluereources" />
             <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/sqlitesample" />
             <option value="$PROJECT_DIR$/square" />
             <option value="$PROJECT_DIR$/testlistview" />
             <option value="$PROJECT_DIR$/textandbutton" />
             <option value="$PROJECT_DIR$/uidesign" />
             <option value="$PROJECT_DIR$/uidesign2" />
             <option value="$PROJECT_DIR$/uimanipulation" />
+            <option value="$PROJECT_DIR$/videoplayer" />
             <option value="$PROJECT_DIR$/viewanimation" />
             <option value="$PROJECT_DIR$/viewproperty" />
           </set>
